@@ -276,11 +276,13 @@ html{
 	color: grey;
 	border-color: grey;
 	background-color: white;
+	transform: scale(1);
 
 	/*animation: animateVisible 1.5s ease;*/
 }
 .services .row .box:hover{
 	background-color: rgba(256,256,256,0.5);
+	transform: scale(1);
 }
 @keyframes animateVisible{
 	0%{
@@ -345,6 +347,7 @@ html{
 .projects .section-content .row-content .box:hover .fa{
 	color: tomato;
 	background-color: white;
+	transform: scale(1);
 }
 .projects .section-content .row-content .box:hover{
 	background-color: rgba(0,0,0,0.5);
@@ -388,6 +391,7 @@ html{
 }
 .gallery .section-content .card .image-setting img:hover{
 	opacity: 100%;
+	transform: scale(1);
 }
 .gallery .section-content .card .overlay{
 	position: absolute;
@@ -614,6 +618,7 @@ i {
 .contact-us .contact-form .button a:hover{
 	background-color: white;
 	color: black;
+	transform: scale(1);
 }
 
 
@@ -665,7 +670,8 @@ footer .social-links a{
 }
 footer .social-links a:hover{
 	color: white;
-	font-size: 35px;
+	/*font-size: 35px;*/
+	transform: scale(1.2);
 }
 
 /*-------------------------Responsive---------------------*/
